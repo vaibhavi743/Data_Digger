@@ -272,23 +272,6 @@ SELECT * FROM Products;
 SELECT * FROM OrderDetails;
 ```
 
-## 📸 Screenshots
-
-For a professional GitHub README, add screenshots of:
-
-1. `SHOW TABLES;`
-2. Customers table output
-3. Orders table output
-4. Products table output
-5. OrderDetails table output
-6. Aggregate query output
-
-Example:
-
-```markdown
-![Customers Table](screenshots/customers.png)
-```
-
 Recommended repository structure:
 
 ```text
@@ -302,20 +285,6 @@ Project-1-Data-Digger/
     ├── products.png
     └── orderdetails.png
 ```
-
-## 💡 What I Learned
-
-Through this project, I practiced:
-
-- Designing a relational database
-- Creating and connecting multiple tables
-- Using primary and foreign keys
-- Maintaining referential integrity
-- Performing CRUD operations
-- Filtering and sorting records
-- Using aggregate functions
-- Working with foreign key constraints
-- Understanding relationships between database tables
 
 ## 🎯 Project Objective
 
