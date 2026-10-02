@@ -234,8 +234,6 @@ FOREIGN KEY (product_id)
 REFERENCES Products(product_id)
 ```
 
-These relationships help maintain **referential integrity** between related records.
-
 ## ▶️ How to Run
 
 ### 1. Open MySQL
@@ -272,20 +270,6 @@ SELECT * FROM Products;
 SELECT * FROM OrderDetails;
 ```
 
-Recommended repository structure:
-
-```text
-Project-1-Data-Digger/
-│
-├── project 1.sql
-├── README.md
-└── screenshots/
-    ├── customers.png
-    ├── orders.png
-    ├── products.png
-    └── orderdetails.png
-```
-
 ## 🎯 Project Objective
 
 The objective of **Data Digger** is to build a small practical relational database and understand how multiple tables work together using SQL.
@@ -304,17 +288,3 @@ Project-1-Data-Digger/
 ## 👩‍💻 Author
 
 **Vaibhavi Khokhani**
-
-BCA Graduate | Python & AI Learner
-
-## ⭐ Project Highlights
-
-- ✔️ Relational MySQL database
-- ✔️ Four connected tables
-- ✔️ Primary and Foreign Keys
-- ✔️ `ON DELETE CASCADE`
-- ✔️ CRUD operations
-- ✔️ Aggregate functions
-- ✔️ Filtering and sorting
-- ✔️ Practical SQL project
-
